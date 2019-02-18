@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphcmkiLCJpZCI6IjVjNmE4Y2Y4Y2E4NDE4MWFhYmU1ZGVjYiIsImlhdCI6MTU1MDQ5NzAwMX0.LSiHLN6SofSrANZEojF02jdgC5m8lT_qqSskNe-4ajU
+
+{
+    "title": "TokenBlogi",
+    "author": "Jari Litmanen",
+    "url": "www.testi.test",
+    "likes": "0",
+    "userId": "5c6a8cf8ca84181aabe5decb"
+}
